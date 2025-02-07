@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="MP-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Home | MP-1</title>
+  </head>
+
+  <body>
+    <div id="full-wrapper">
+      <div id="header-wrapper">
+        <header>
+          <h2>Isa Alsafwah</h2>
+          <p>Online Resume</p>
+        </header>
+      </div>
+
+      <div id="body-wrapper">
+        <div id="navbar-wrapper">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/education.html">Education</a></li>
+              <li><a href="/experience.html">Experience</a></li>
+              <li><a href="/projects.html">Projects</a></li>
+              <li><a href="/skills.html">Skills</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="remaining-wrapper">
+          <main>
+            <h3>Projects</h3>
+            <div>
+              <div id="exp">
+                <h4>Meowplay</h4>
+                <a href="https://github.com/isaadev/cat-toys" target="_blank">Github</a>
+                <p>
+                  Implemented core e-commerce functionalities including product
+                  listings, shopping cart, and secure checkout processes.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div id="exp">
+                <h4>Nutrisistant</h4>
+                <a href="https://github.com/zalu224/411-Proj" target="_blank">Github</a>
+                <p>
+                  Designed and implemented a RESTful API for a nutritional
+                  assistance application using Express and NodeJS.
+                </p>
+                <a href=""></a>
+              </div>
+            </div>
+
+            <div>
+              <div id="exp">
+                <div id="calc">
+                  <h4>Calculator</h4>
+                  
+                  <label for="first-num">First Number:</label>
+                  <input type="text" id="first-num" />
+                  <label for="second-num">Second Number:</label>
+                  <input type="text" id="second-num" />
+
+                  <div id="btns">
+                    <button onclick="addition()">+</button>
+                    <button onclick="subtraction()">-</button>
+                    <button onclick="multiplication()">*</button>
+                    <button onclick="division()">/</button>
+                    <button onclick="power()">**</button>
+                    <button onclick="clearFields()">Clear</button>
+                  </div>
+                  <p id="result"></p>
+                </div>
+                
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <footer>All Rights Reserved Isa <a href="credits.html">Credits</a> &copy</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
