@@ -42,13 +42,12 @@ function power() {
   let final = 1;
 
   if (n2 === 0) {
-    final = 1; 
+    final = 1;
   } else if (n2 > 0) {
     for (let i = 0; i < n2; i++) {
       final *= n1;
     }
   } else {
-    
     for (let i = 0; i > n2; i--) {
       final *= n1;
     }
