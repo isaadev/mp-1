@@ -39,17 +39,22 @@ function power() {
   let n1 = getVals()[0];
   let n2 = getVals()[1];
 
-  final = 1;
-  
-  
-  for (let i = 0; i < n2; i++) {
-    final = final * n1;
-  }
+  let final = 1;
 
-  if (n2 < 0) {
+  if (n2 === 0) {
+    final = 1; 
+  } else if (n2 > 0) {
+    for (let i = 0; i < n2; i++) {
+      final *= n1;
+    }
+  } else {
+    
+    for (let i = 0; i > n2; i--) {
+      final *= n1;
+    }
     final = 1 / final;
   }
-  
+
   checkNegative(final);
 }
 
